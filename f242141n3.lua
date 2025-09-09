@@ -82,7 +82,7 @@ getgenv().library = {
 
 local themes = {
     preset = {
-        accent = Color3.fromRGB(255, 0, 0), -- red
+        accent = Color3.fromRGB(249, 233, 153), 
     },
 
     utility = {
@@ -711,7 +711,7 @@ end
                 Name = "\0";
                 TextColor3 = themes.preset.accent;
                 BorderColor3 = rgb(0, 0, 0);
-                Text = '<font color="rgb(72, 72, 73)"> Beta Build | </font>' .. cfg.name .. cfg.suffix;
+                Text = '<font color="rgb(72, 72, 73)"> Paid | Beta Build | </font>' .. cfg.name .. cfg.suffix;
                 Size = dim2(1, 0, 0, 0);
                 Position = dim2(0, -10, 0.5, -1);
                 AnchorPoint = vec2(0, 0.5);
