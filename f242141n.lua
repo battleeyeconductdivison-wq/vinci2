@@ -82,8 +82,8 @@ getgenv().library = {
 
 local themes = {
     preset = {
-        accent = rgba(231, 14, 14, 0.84),
-    }, 
+        accent = Color3.fromRGB(255, 0, 0), -- red
+    },
 
     utility = {
         accent = {
